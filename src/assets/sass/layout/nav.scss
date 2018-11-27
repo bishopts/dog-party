@@ -1,0 +1,34 @@
+.nav {
+  padding: 1rem 2rem;
+
+  background-color: $primary-tint;
+  color: $on-primary;
+  line-height: 35px;
+}
+
+.nav__logo {  
+  display: inline;
+  width: 35px;
+  height: 35px;
+
+  vertical-align: middle;
+}
+
+.nav__list {
+  float: right;
+}
+
+.nav__item {
+  display: inline-block;
+}
+
+.nav__link {
+  padding: 0 1rem;
+
+  color: $on-primary;
+  font-size: 1.8rem;
+
+  &:hover {
+    color: $primary;
+  }
+}

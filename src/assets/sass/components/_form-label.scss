@@ -1,0 +1,10 @@
+.form-label {
+	font-weight: $bold;
+
+
+	&__body {
+		display: inline-block;
+		font-weight: $regular;
+		margin-left: 0.5rem;
+  }
+}

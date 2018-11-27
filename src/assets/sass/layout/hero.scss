@@ -1,0 +1,35 @@
+.hero {
+  padding: 6rem;
+
+  background: {
+    image: url('../../../images/park.jpg');
+    position: center;
+    size: cover;
+  }
+  text-align: center;
+}
+
+.hero__heading {
+  margin-bottom: 3rem;
+
+  font-weight: $regular;
+  font-size: 4.2rem;
+  text-align: center;
+
+  @media (max-width: 620px) {
+    font-size: 3.6rem;
+  }
+}
+
+.hero__img {
+  margin: 0 auto 3rem;
+  width: 280px;
+
+  border: solid 3px $primary;
+  border-radius: 50%;
+
+  @media (max-width: 620px) {
+    width: 200px;
+  }
+}
+

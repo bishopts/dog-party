@@ -1,0 +1,36 @@
+.cta {
+  max-width: $max-width;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+
+.cta__card {
+  float: left;
+
+  width: 33.3%;
+  padding: 4rem 2rem;
+
+  text-align: center;
+
+  @media (max-width: 856px) {
+    float: none;
+
+    width: 100%;
+    // margin-bottom: 6rem;
+  }
+}
+
+.cta__heading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.cta__img {
+  display: inline;
+
+  max-width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+  border: 3px solid $primary;
+  border-radius: 50%;
+}

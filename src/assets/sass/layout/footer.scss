@@ -1,0 +1,28 @@
+.footer {
+  padding: 2rem;
+
+  background-color: $primary;
+  color: $on-primary;
+  text-align: center;
+}
+
+.footer__social {
+  padding: 2rem;
+}
+
+.footer__icon {
+  padding: 0 2rem;
+
+  color: $on-primary;
+
+  @media (max-width: 430px) {
+    padding: 0 1rem;
+    
+    font-size: 1rem;
+  }
+}
+
+.footer__cta {
+  color: $on-primary;
+  text-decoration: underline;
+}
