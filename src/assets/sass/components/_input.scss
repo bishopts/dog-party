@@ -1,13 +1,20 @@
 .input {
-	height: 38px;
-	padding: 0 10px;
-	background-color: $background;
-	border: 1px solid $gray-07;
-	border-radius: 4px;
-	box-shadow: none;
+  display: block;
 
-	&:focus {
-		border: 1px solid $accent;
-		outline: 0;
+  width: 100%;
+  max-width: 400px;
+  min-width: 280px;
+  height: 38px;
+  margin: 0 auto 2rem;
+  padding: 0 10px;
+
+  border: 1px solid $gray-07;
+  border-radius: 4px;
+  background-color: $background;
+  box-shadow: none;
+
+  &:focus {
+    border: 1px solid $accent;
+    outline: 0;
   }
 }
