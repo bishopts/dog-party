@@ -16,9 +16,7 @@
 		<header>
       <!-- Navigation -->
       <nav class="nav cf">
-
         <img class="nav__logo" src="images/dog-icon.svg" alt="dog icon">
-
         <ul class="nav__list">
           <li class="nav__item">
             <a href="#" class="nav__link">How</a>
@@ -30,18 +28,14 @@
             <a href="#" class="nav__link">Facts</a>
           </li>
         </ul>
-
       </nav>
 
       <!-- Hero Section -->
       <section class="hero">
-
-        <h1 class="hero__heading">A Site About Some Dogs</h1>
-
+        <h1 class="hero__heading">A Site About <span id="js-dog-name">Some Dogs</span></h1>
         <img src="images/dog1-sq.jpg" alt="a curious looking doggo" class="hero__img">
-
-        <a href="#" class="btn btn--primary hero__btn">What are Dogs</a>
-
+        <input type="text" id="js-dog-input" class="input">
+        <button class="hero__btn btn btn--primary">Name Your Dog!</button>
       </section>
 
     </header>
@@ -73,9 +67,7 @@
 
     <!-- Footer -->
     <footer class="footer">
-
       <span>Learn About Dogs Online</span>
-
       <!-- Social Links -->
       <div class="footer__social">
         <a href="#" class="footer__icon"><i class="fab fa-facebook fa-3x"></i></a>
@@ -83,10 +75,11 @@
         <a href="#" class="footer__icon"><i class="fab fa-instagram fa-3x"></i></a>
         <a href="#" class="footer__icon"><i class="fab fa-linkedin fa-3x"></i></a>
       </div>
-
       <a href="#" class="footer__cta">See this on GitHub</a>
-
     </footer>
+    
+    <!-- Scripts -->
+    <script src="/assets/js/main.js"></script>
   </body>
   
 </html>
